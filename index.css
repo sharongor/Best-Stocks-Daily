@@ -1,0 +1,24 @@
+#fetchButton {
+    position: fixed;
+    left: 50%;
+    z-index: 9999;
+}
+
+#svgContainer {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin-right: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
